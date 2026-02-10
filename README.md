@@ -1,56 +1,39 @@
-# College Course Management System in C++
+# Library Management System (C++)
 
-A simple **College Course Management System** implemented in C++ using **Object-Oriented Programming (OOP)** concepts.  
-This project demonstrates handling instructors, students, and courses, including basic operations like adding students, assigning instructors, and displaying course information.
+A console-based Library Management System implemented using C++ and Object-Oriented Programming (OOP) concepts.  
+The system allows users to manage books, perform borrowing and returning operations, search for books, check availability, and purchase books through a menu-driven interface.
 
----
+-------------------------------------
 
-## **Description**
+## Features
+- Add new books with unique ID validation
+- Display all available books
+- Search books by title
+- Borrow and return books
+- Check book availability
+- Buy books and generate a purchase receipt
+- Menu-driven console interface
 
-This project simulates a basic college management system where:
+-------------------------------------
 
-- **Instructors** can be assigned to courses.
-- **Students** can be enrolled in courses.
-- The system displays detailed course information, including instructor and enrolled students.
+## Technologies Used
+- C++
+- Object-Oriented Programming (OOP)
+- STL (vector, string)
 
-The system uses **OOP principles** including inheritance, encapsulation, and composition.  
-It also includes **data encapsulation** and clean console-based output.
+-------------------------------------
 
----
+## Concepts Applied
+- Classes & Objects
+- Encapsulation
+- Constructors
+- Validation handling
+- STL Containers
+- Menu-driven application design
 
-## **Features**
+-------------------------------------
 
-- Create **Instructor and Student objects**
-- Create **Course objects** and assign instructors
-- Add multiple students to a course
-- Display full course information:
-  - Course name and ID
-  - Instructor info
-  - Enrolled students with their info
-- Clean console-based interface
-
----
-
-## **File Structure**
-
-- `main.cpp` – Entry point, demonstrates course creation and operations.
-- `Person.h` – Contains class definitions (`Person`, `Instructor`, `Student`, `Course`).
-- `Person.cpp` – Contains class implementations for `Person` methods.
-
----
-
-## **Requirements**
-
-- C++ compiler (e.g., g++, Visual Studio, Code::Blocks)
-- Basic knowledge of OOP in C++
-
----
-
-## **How to Compile and Run**
-
-Using **g++**:
-
-```bash
-g++ main.cpp Person.cpp -o CollegeSoftware
-./CollegeSoftware   # Linux/macOS
-CollegeSoftware.exe # Windows
+## How to Run
+1. Compile the project:
+   ```bash
+   g++ main.cpp -o library
